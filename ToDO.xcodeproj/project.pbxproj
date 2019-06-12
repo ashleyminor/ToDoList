@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		ABA4E00722B196BC00009168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4E00622B196BC00009168 /* AppDelegate.swift */; };
-		ABA4E00922B196BC00009168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4E00822B196BC00009168 /* ViewController.swift */; };
 		ABA4E00C22B196BC00009168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA4E00A22B196BC00009168 /* Main.storyboard */; };
 		ABA4E00F22B196BC00009168 /* ToDO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABA4E00D22B196BC00009168 /* ToDO.xcdatamodeld */; };
 		ABA4E01122B196BE00009168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA4E01022B196BE00009168 /* Assets.xcassets */; };
 		ABA4E01422B196BE00009168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA4E01222B196BE00009168 /* LaunchScreen.storyboard */; };
+		ABA4E01C22B1993D00009168 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4E01B22B1993D00009168 /* TableViewController.swift */; };
+		ABA4E01E22B19B3E00009168 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA4E01D22B19B3E00009168 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABA4E00322B196BB00009168 /* ToDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA4E00622B196BC00009168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABA4E00822B196BC00009168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABA4E00B22B196BC00009168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABA4E00E22B196BC00009168 /* ToDO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDO.xcdatamodel; sourceTree = "<group>"; };
 		ABA4E01022B196BE00009168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA4E01322B196BE00009168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABA4E01522B196BE00009168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA4E01B22B1993D00009168 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ABA4E01D22B19B3E00009168 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				ABA4E00622B196BC00009168 /* AppDelegate.swift */,
-				ABA4E00822B196BC00009168 /* ViewController.swift */,
 				ABA4E00A22B196BC00009168 /* Main.storyboard */,
+				ABA4E01D22B19B3E00009168 /* ToDo.swift */,
+				ABA4E01B22B1993D00009168 /* TableViewController.swift */,
 				ABA4E01022B196BE00009168 /* Assets.xcassets */,
 				ABA4E01222B196BE00009168 /* LaunchScreen.storyboard */,
 				ABA4E01522B196BE00009168 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA4E00922B196BC00009168 /* ViewController.swift in Sources */,
 				ABA4E00722B196BC00009168 /* AppDelegate.swift in Sources */,
+				ABA4E01C22B1993D00009168 /* TableViewController.swift in Sources */,
 				ABA4E00F22B196BC00009168 /* ToDO.xcdatamodeld in Sources */,
+				ABA4E01E22B19B3E00009168 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
